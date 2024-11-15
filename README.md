@@ -62,28 +62,25 @@ Visualization:
 
 Displays sample images from the dataset with their predicted and actual labels.
 ## Model Architecture
-- Layer Type	Parameters
 - Convolution Layer 1	Input: 3 channels, Output: 16
 - Convolution Layer 2	Input: 16 channels, Output: 32
-Convolution Layer 3	Input: 32 channels, Output: 64
-Max Pooling	Kernel Size: 2x2, Stride: 2
-Fully Connected 1	Input: 64x4x4, Output: 256
-Fully Connected 2	Input: 256, Output: 128
-Fully Connected 3	Input: 128, Output: 10 (classes)
-Dropout	Probability: 0.2
-Activation Function	ReLU
-Output Function	LogSoftmax (for classification)
+- Convolution Layer 3	Input: 32 channels, Output: 64
+- Max Pooling	Kernel Size: 2x2, Stride: 2
+- Fully Connected 1	Input: 64x4x4, Output: 256
+- Fully Connected 2	Input: 256, Output: 128
+- Fully Connected 3	Input: 128, Output: 10 (classes)
+- Dropout	Probability: 0.2
+- Activation Function	ReLU
+- Output Function	LogSoftmax (for classification)
 ## Results
-Training and Validation Loss: The program tracks and prints loss values during training and validation.
-
+Training and Validation Loss: 
+- The program tracks and prints loss values during training and validation.
 Test Accuracy:
-
-Per-class accuracy for all 10 classes.
-Overall accuracy percentage.
+- Per-class accuracy for all 10 classes.
+- Overall accuracy percentage.
 Visual Predictions:
-
-Sample test images with predicted and actual labels are displayed.
-Correct predictions are marked in green, incorrect in red.
+- Sample test images with predicted and actual labels are displayed.
+- Correct predictions are marked in green, incorrect in red.
 
 ## Contact
 Author: Elian Iluk
