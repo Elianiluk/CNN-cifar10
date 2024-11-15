@@ -32,22 +32,8 @@ Automatically detects GPU availability for faster computations.
 
 Plots training images with labels.
 Visualizes model predictions with true labels.
-## Usage
-Requirements
-Install the required libraries before running the code:
 
-bash
-Copy code
-pip install torch torchvision matplotlib numpy
-File Structure
-Code Implementation: The provided code defines all steps, from data preprocessing to evaluation and visualization.
-Run the Program
-Clone the repository or download the script.
-Run the program:
-bash
-Copy code
-python cnn_image_classification.py
-Dataset
+## Dataset
 The CIFAR-10 dataset is used in this project:
 
 Training Data: 80% of the dataset (48,000 images)
@@ -55,7 +41,7 @@ Validation Data: 20% of the training set (12,000 images)
 Test Data: 10,000 images
 The dataset is automatically downloaded using the torchvision.datasets module.
 
-Program Workflow
+## Program Workflow
 Data Loading and Preprocessing:
 
 Augments the training dataset with random horizontal flips and rotations.
@@ -75,7 +61,7 @@ Reports accuracy for each class and overall accuracy.
 Visualization:
 
 Displays sample images from the dataset with their predicted and actual labels.
-Model Architecture
+## Model Architecture
 Layer Type	Parameters
 Convolution Layer 1	Input: 3 channels, Output: 16
 Convolution Layer 2	Input: 16 channels, Output: 32
@@ -87,7 +73,7 @@ Fully Connected 3	Input: 128, Output: 10 (classes)
 Dropout	Probability: 0.2
 Activation Function	ReLU
 Output Function	LogSoftmax (for classification)
-Results
+## Results
 Training and Validation Loss: The program tracks and prints loss values during training and validation.
 
 Test Accuracy:
@@ -98,24 +84,8 @@ Visual Predictions:
 
 Sample test images with predicted and actual labels are displayed.
 Correct predictions are marked in green, incorrect in red.
-Customization
-Adjust Training Parameters:
 
-Modify the number of epochs, batch size, or learning rate as needed.
-Example:
-
-python
-Copy code
-n_epochs = 10
-batch_size = 32
-learning_rate = 0.0005
-Modify Model Architecture:
-
-Add or remove layers to experiment with performance.
-Dataset:
-
-Replace CIFAR-10 with a custom dataset by modifying the data loaders.
-Contact
+## Contact
 Author: Elian Iluk
 Email: elian10119@gmail.com
 
