@@ -62,9 +62,9 @@ Visualization:
 
 Displays sample images from the dataset with their predicted and actual labels.
 ## Model Architecture
-Layer Type	Parameters
-Convolution Layer 1	Input: 3 channels, Output: 16
-Convolution Layer 2	Input: 16 channels, Output: 32
+- Layer Type	Parameters
+- Convolution Layer 1	Input: 3 channels, Output: 16
+- Convolution Layer 2	Input: 16 channels, Output: 32
 Convolution Layer 3	Input: 32 channels, Output: 64
 Max Pooling	Kernel Size: 2x2, Stride: 2
 Fully Connected 1	Input: 64x4x4, Output: 256
