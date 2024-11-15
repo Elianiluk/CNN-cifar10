@@ -75,12 +75,15 @@ Displays sample images from the dataset with their predicted and actual labels.
 ## Results
 Training and Validation Loss: 
 - The program tracks and prints loss values during training and validation.
+  
 Test Accuracy:
 - Per-class accuracy for all 10 classes.
 - Overall accuracy percentage.
+  
 Visual Predictions:
 - Sample test images with predicted and actual labels are displayed.
 - Correct predictions are marked in green, incorrect in red.
+  
 
 ## Contact
 Author: Elian Iluk
